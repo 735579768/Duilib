@@ -254,6 +254,7 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ControlEx\ListEx.cpp" />
     <ClCompile Include="StdAfx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Build\Debug/DuiLib.pch</PrecompiledHeaderOutputFile>
@@ -318,6 +319,8 @@
     <ClCompile Include="Control\UIWebBrowser.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ControlEx\ListEx.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="StdAfx.h" />
     <ClInclude Include="UIlib.h" />
     <ClInclude Include="Utils\downloadmgr.h" />
@@ -357,6 +360,9 @@
     <ClInclude Include="Control\UIText.h" />
     <ClInclude Include="Control\UITreeView.h" />
     <ClInclude Include="Control\UIWebBrowser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DuiLib.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

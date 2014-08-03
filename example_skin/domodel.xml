@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+    <Label text="一个弹出窗口" float="true" pos="0,0,0,0" width="400" height="400" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+</Window>

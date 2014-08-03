@@ -37,6 +37,12 @@
       <UniqueIdentifier>{2e62aee6-3f61-4b6c-9d3c-d13603dcfd39}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
+    <Filter Include="Header Files\ControlEx">
+      <UniqueIdentifier>{59c4c0b8-5fe9-4139-9ea5-78faa3e30e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ControlEx">
+      <UniqueIdentifier>{a71de7a6-e1d4-441b-aadb-e325393d69ec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StdAfx.cpp">
@@ -149,6 +155,9 @@
     </ClCompile>
     <ClCompile Include="Control\UIWebBrowser.cpp">
       <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlEx\ListEx.cpp">
+      <Filter>Source Files\ControlEx</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -269,5 +278,16 @@
     <ClInclude Include="Control\UIWebBrowser.h">
       <Filter>Header Files\Control</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlEx\ListEx.h">
+      <Filter>Header Files\ControlEx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DuiLib.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
